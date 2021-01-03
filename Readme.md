@@ -1,8 +1,8 @@
-# Dell Precision 7510 - MacOS Catalina Bootpack for Clover
+# Dell Precision 7510 - MacOS 10.15.x Catalina EFI Partition
 
-This documentation is written assuming that you are already familiar with the process of setting up the [Clover](https://github.com/CloverHackyColor/CloverBootloader/releases) bootloader and installing MacOS on unofficial hardware. If this is not the case, please familiarize yourself with these processes as no support will be provided for them.
+This documentation is written assuming that you are already familiar with the process of setting up and installing MacOS on unofficial hardware.
 
-Bootpack has been customized for Dell Precision 7510's with the following key specs:
+EFI partition has been customized for Dell Precision 7510's with the following key specs:
 
 - Intel i7 6820HQ (Skylake)
 - Intel HD530 iGPU
@@ -13,7 +13,7 @@ Intel AC 8260 is now **fully operational** thanks to the `itlwm` and `IntelBluet
 
 ## Installation
 
-Install [Clover](https://github.com/CloverHackyColor/CloverBootloader/releases) **v5127 or higher**, then place the contents of this bootpack into the `/EFI` folder within your boot partition and **replace** any existing files.
+Copy the entire contents of this repository into the `/EFI` folder within your boot partition and **replace** any existing files.
 
 ## Installation Notes
 
